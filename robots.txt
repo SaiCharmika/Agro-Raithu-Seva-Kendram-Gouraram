@@ -1,33 +1,6 @@
-# Robots.txt for Agro Raithu Seva Kendram Gouraram
-# Allow all search engines to crawl the website
-
 User-agent: *
 Allow: /
-Allow: /index.html
-Allow: /seeds.html
-Allow: /vegetable-seeds.html
-Allow: /pesticides.html
-Allow: /fertilizers.html
-Allow: /images/
-Allow: /images-seeds/
-Allow: /images-fertilizer/
-Allow: /images-pesticides/
-Allow: /images-vegetable/
-
-# Disallow private or admin sections (if any)
 Disallow: /admin/
 Disallow: /private/
 
-# Crawl delay and request rate (in seconds)
-Crawl-delay: 1
-
-# Sitemap location
 Sitemap: https://arskgouraram.com/sitemap.xml
-
-# Google specific
-User-agent: Googlebot
-Allow: /
-
-# Bing specific
-User-agent: Bingbot
-Allow: /
